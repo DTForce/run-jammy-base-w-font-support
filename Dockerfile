@@ -1,4 +1,4 @@
-FROM paketobuildpacks/run-jammy-base:0.1.115
+FROM paketobuildpacks/run-jammy-base:0.1.120
 
 ARG RUN_PACKAGES="libfreetype6 fontconfig"
 
