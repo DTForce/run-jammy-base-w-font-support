@@ -28,8 +28,8 @@ Just use the `dtforce/run-jammy-base-ttfonts:latest` as the `runImage` of your `
 If you want to build your own runimage (feel free to fork) or suggest a useful change to this repo (we weill accept sensible pull requests that contribute to general usability of the image and do not bloat it unnecessarily).
 
 1. Touch the `Dockerfile` and make your adjustments as required
-2. Build the image `docker build . -t dtforce/run-jammy-base-ttfonts:0.1.127 -t dtforce/run-jammy-base-ttfonts:latest` (or your tag)
-3. Push the image `docker push dtforce/run-jammy-base-ttfonts:0.1.127 && docker push dtforce/run-jammy-base-ttfonts:latest` (or your tag)
+2. Build the image `docker build . -t dtforce/run-jammy-base-ttfonts:0.1.137 -t dtforce/run-jammy-base-ttfonts:latest` (or your tag)
+3. Push the image `docker push dtforce/run-jammy-base-ttfonts:0.1.137 && docker push dtforce/run-jammy-base-ttfonts:latest` (or your tag)
 4. Use the image as `runImage` of the `bootBuildImage` Gradle task in your project (see the Basic usage above)
 
 ## Closing remarks and troubleshooting
